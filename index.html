@@ -1,0 +1,297 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Gluten&family=Russo+One&display=swap" rel="stylesheet">
+    <script src="js/scrollreveal.js"></script>
+    <script src="https://kit.fontawesome.com/9b95a5c077.js" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+   <link href="https://fonts.googleapis.com/css2?family=Alata&family=Paytone+One&family=Righteous&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Archivo+Black&family=Candal&family=Fira+Sans+Extra+Condensed:wght@300&family=Fredoka+One&family=Lilita+One&family=Mitr:wght@300&family=Niconne&family=Oleo+Script+Swash+Caps:wght@700&family=Titan+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Rowdies:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Nanum+Myeongjo:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Lilita+One&family=Nanum+Myeongjo:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Ballet:opsz@16..72&family=Bodoni+Moda+SC:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Kapakana:wght@300..400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Monsieur+La+Doulaise&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nothing+You+Could+Do&family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Noto+Serif+JP:wght@200..900&family=Parisienne&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Rubik+Mono+One&family=Russo+One&family=Sigmar&family=WindSong:wght@400;500&display=swap" rel="stylesheet">
+    <script type='text/javascript'>
+$(document).ready(function(){ 
+    $(window).scroll(function(){ 
+        if ($(this).scrollTop() > 100) { 
+            $('#scroll').fadeIn(); 
+        } else { 
+            $('#scroll').fadeOut(); 
+        } 
+    }); 
+    $('#scroll').click(function(){ 
+        $("html, body").animate({ scrollTop: 0 }, 600); 
+        return false; 
+    }); 
+
+    $('a[href^="#"]').click(function() {
+    var destino = $(this.hash);
+    if (destino.length == 0) {
+      destino = $('a[name="' + this.hash.substr(1) + '"]');
+    }
+    if (destino.length == 0) {
+      destino = $('html');
+    }
+    $('html, body').animate({ scrollTop: destino.offset().top }, 500);
+    return false;
+  });
+
+ $('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+});
+   
+});
+
+// Open the Modal
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+// Close the Modal
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+
+	<title>Sierra Dulce </title>
+	<link rel="shortcut icon" href="img/"/>
+</head><!--<body>
+    <div class="row justify-content-center">
+    <h1 class='desactivado col-11 text-center' ><li class='mr-1 far fa-times-circle'></li>DESACTIVADO TEMPORALMENTE<li class='ml-1 far fa-tired'></li>
+        </h1> 
+    </div></body>-->
+ 
+<body style="background-color:white">
+    <img class="imagen text-center" src="img/portada.jpg" > 
+<div class="" style="">
+<div class="wrp">
+        
+           
+        <div class="contenido">
+            <div class="info">
+                <img class="imagen3 col-9 col-md-5 mt-4" src="img/logo.png" > 
+                <div class="row justify-content-center" style="margin:0 auto">
+                 <!--<h1 class='nuestraBoda col-12 col-md-6 text-center'>¿Por qué viajar con Acostrip? </h1>-->
+                <h1 class="nombres1 col-11 mt-3 col-md-7 ">Nuestra cajeta está hecha con leche de vaca ordeñada, lo que le da ese sabor intenso, auténtico y cremoso que distingue a la cajeta bronca. Sin aditivos artificiales ni conservadores: solo lo bueno, conservamos las buenas prácticas de los nuestros. 
+</h1>
+            </div>
+                
+            </div>
+        </div>
+        
+</div>
+
+   </div>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" style="margin-top: -80px;"><path fill="#fff" fill-opacity="1" d="M0,224L48,208C96,192,192,160,288,170.7C384,181,480,235,576,213.3C672,192,768,96,864,96C960,96,1056,192,1152,218.7C1248,245,1344,203,1392,181.3L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+   
+<br><br>
+
+<div class="container" style="">
+    <div class="row justify-content-center" style="margin: 0 auto;">
+      
+        <div class="col-12 col-md-6 mt-4">
+
+           <h1 class="titulo4 text-left">Artesanal</h1>
+
+           <h1 class="titulo text-right">en caso de cobre</h1>
+
+        </div>
+       </div></div>
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" style="margin-bottom: -150px; z-index: 999;"><path fill="#fff" fill-opacity="1" d="M0,64L48,74.7C96,85,192,107,288,101.3C384,96,480,64,576,69.3C672,75,768,117,864,112C960,107,1056,53,1152,42.7C1248,32,1344,64,1392,80L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+
+       <div class="container mt-4 portada1" style="">
+            <br><br>
+
+            <div class="destinos col-11 col-md-6" style="margin:0 auto">
+                <br><br>
+                <!--<h1 class="subtitulo text-center "><b>Destinos</b></h1>
+                    <h1 class="subtitulo2 text-center ">Nacionales:</h1>-->
+                    <h1 class="texto text-center mt-4">Es cocinada a fuego lento en cazo de cobre, como dicta la tradición. Este método no solo respeta el sabor original, también concentra la dulzura natural y genera esa textura perfecta que se derrite en tu paladar.</h1>
+                   
+                                    <br><br>      
+            </div>
+            <br><br>
+        </div>
+                   <!-- <h1 class="subtitulo3 col-12 text-center mt-4"><b>Beneficios</b></h1>-->
+
+                   <!-- <h1 class="subtitulo3 text-center col-12 mt-4"><b>Además...</b></h1>
+                    <h1 class="texto text-center mt-2">Disney ofrece diferentes parques temáticos como:</h1>
+                    <h1 class="texto text-center col-12">Magic Kingdom</h1>
+                    <h1 class="texto text-center col-12">Epcot</h1>
+                    <h1 class="texto text-center">Disney's Hollywood Studios</h1>
+                    <h1 class="texto text-center ">Animal Kingdom</h1>-->
+    </div>
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" style="margin-top: -40px;"><path fill="#fff" fill-opacity="1" d="M0,64L48,74.7C96,85,192,107,288,101.3C384,96,480,64,576,69.3C672,75,768,117,864,112C960,107,1056,53,1152,42.7C1248,32,1344,64,1392,80L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+<br>
+
+<div class="row justify-content-center" style="margin: 0 auto;">
+    
+        <img class=" col-9 col-md-5 mt-0" src="img/lobo.png" >
+        </div> 
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" style="margin-bottom: -150px; z-index: 999;"><path fill="#fff" fill-opacity="1" d="M0,64L48,74.7C96,85,192,107,288,101.3C384,96,480,64,576,69.3C672,75,768,117,864,112C960,107,1056,53,1152,42.7C1248,32,1344,64,1392,80L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+<div class="container mt-4 portada2" style="">
+    <div class="row justify-content-center" style="margin: 0 auto;">
+        <div class="col-12 col-md-6">
+           <!-- <h1 class="titulo text-center mt-5 text-white"><b>XV'S</b></h1>-->
+           <br><br><br>
+           <img class="col-9 mt-0" src="img/cielo.png" >
+           <h1 class="titulo text-center text-white mb-5" style="letter-spacing: 4px; font-size: 35px; text-shadow: 2px 2px 4px #000000;">Hecha en</h1>
+           <h1 class="titulo2 text-center" style="font-size: 60px; background-color: transparent;">DURANGO</h1>
+          <h1 class="titulo text-center text-white mt-5 mb-5" style="letter-spacing: 4px; font-size: 30px; text-shadow: 2px 2px 4px #000000;">con fondo y forma</h1>
+       </div>
+       <div class="col-12" style="margin:0 auto">
+                <br><br>
+                   <!-- <h1 class="subtitulo text-center text-white"><b>Destinos</b></h1>-->
+                    
+                
+                                    <br><br>      
+            </div>
+       
+    </div>
+
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" style="margin-top: -40px;"><path fill="#fff" fill-opacity="1" d="M0,64L48,74.7C96,85,192,107,288,101.3C384,96,480,64,576,69.3C672,75,768,117,864,112C960,107,1056,53,1152,42.7C1248,32,1344,64,1392,80L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+<div class="container" style="margin-top:80px; margin: 0 auto;">
+    <div class="row justify-content-center" style="margin: 0 auto;">
+      <!--  <h1 class="subtitulo3 text-center col-12 mt-4"><b>Desde..</b></h1>
+                    <h1 class="texto2 text-center mt-2 col-12">La majestuosidad de París con la Torre Eiffel y el Louvre, hasta la encantadora Venecia con sus románticos canales, pasando por la animada Barcelona con su arquitectura modernista, un viaje por Europa te permitirá sumergirte en diferentes culturas, idiomas y tradiciones.
+
+                    </h1>-->
+        <div class="col-11 mt-4">
+            <h1 class="titulo text-center" style="font-size:20px">No solo es cajeta</h1>
+           <h1 class="titulo4 text-center mt-3" style="background-color: transparent; color:#b66d3c; font-size: 25px;">Es un homenaje a nuestras raíces.</h1>
+        </div>
+       
+            <img class="col-12 col-md-5 mt-4" src="img/logoazul.png" >
+       
+            <br><br>
+            
+               
+              
+                    <h1 class="texto text-center mt-4 col-11" style="color:#b66d3c; text-shadow: 0px 0px 0px #fff;">Es una marca con corazón y concepto. Cada detalle, desde el proceso hasta el empaque, cuenta una historia: <b>la de nuestra sierra, nuestra gente y nuestras tradiciones.</b>
+</h1>
+<img class=" col-6 col-md-5 " src="img/Rio.png" style="margin-top: -0px;" > 
+                    
+                                    <br><br>      
+            
+            <br><br>
+        
+                   <!-- <h1 class="subtitulo3 text-center col-12 mt-4"><b>Además...</b></h1>
+                    <h1 class="texto2 text-center mt-2 col-12 mb-4">Viajar al extranjero puede ayudarte a desarrollar habilidades como la adaptabilidad, la resolución de problemas, la comunicación intercultural y la independencia. Te brinda la oportunidad de desconectar de la rutina diaria, relajarte y revitalizarte mientras exploras lugares fascinantes.
+                    </h1>-->
+                   
+    </div>
+</div>
+ <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" style="margin-bottom: -150px; z-index: 999;"><path fill="#fff" fill-opacity="1" d="M0,64L48,74.7C96,85,192,107,288,101.3C384,96,480,64,576,69.3C672,75,768,117,864,112C960,107,1056,53,1152,42.7C1248,32,1344,64,1392,80L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+
+<div class="container mt-4 portada3" style="">
+    <div class="row justify-content-center" style="margin: 0 auto;">
+        <div class="col-12">
+           <!-- <h1 class="titulo text-center mt-5 text-white"><b>XV'S</b></h1>-->
+           <br><br><br><br><br>
+           
+           <h1 class="titulo text-center text-white mb-4" style="letter-spacing: 4px; font-size: 33px; text-shadow: 2px 2px 4px #000000;">Con sabor</h1>
+           <h1 class="titulo2 text-center" style="font-size: 50px; background-color: transparent;">Ceci y Ever</h1>
+          
+       </div>
+       <div class="col-12" style="margin:0 auto">
+                <br><br>
+                   <!-- <h1 class="subtitulo text-center text-white"><b>Destinos</b></h1>-->
+                    
+                
+                                    <br><br>      
+            </div>
+       
+    </div>
+
+</div>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" style="margin-top: -40px;"><path fill="#fff" fill-opacity="1" d="M0,64L48,74.7C96,85,192,107,288,101.3C384,96,480,64,576,69.3C672,75,768,117,864,112C960,107,1056,53,1152,42.7C1248,32,1344,64,1392,80L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+
+ 
+ 
+
+</div>
+<br>
+    </div>
+
+</div>
+<h1 class="titulo text-center  mb-4" style="letter-spacing: 4px; font-size: 33px;  ">Redes Sociales</h1>
+
+  <!-----------REDES SOCIALES------------>
+<div class="social-container" style="background-color: transparent;">
+ <ul class="social-icons">
+ 
+ <li><a href="https://www.facebook.com/share/1ESYYzMYb8/?mibextid=wwXIfr"><i class="fab fa-facebook"></i></a></li>
+ <li><a href="https://www.instagram.com/sierradulce_cajeta?igsh=MWIxNHNzam1uOWNldw%3D%3D&utm_source=qr"><i class="fa fa-instagram "></i></a></li>
+ 
+ </ul>
+</div>
+<!--------------------------------------->
+           
+
+     
+        
+    <a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
+</a> 
+
+	
+<div class="row justify-content-center" style="background-color: white">
+                  
+                <img class="col-8 col-md-3 mb-3 mt-4" src="img/logotipoConCodigo.png">  
+        </div>  
+   
+	<!-- JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,933 @@
+ body{
+  background-color: #fff;
+  width: 100%;
+
+  overflow-x: hidden;
+    scrollbar-color: ;
+}
+.desactivado{
+    margin-top: 320px;
+  font-size: 35px;
+
+
+
+}
+p{
+  margin-bottom: 0px;
+  margin-left: : 0px;
+  font-size: 1.2rem;
+}
+
+img{
+  width: 100%;
+}
+a{
+  display: inline-block;
+ 
+  text-decoration: none;
+
+}
+
+h3{
+  color:#121D25;
+}
+
+ul{
+  text-align: center;
+  z-index: 99;
+
+  
+}
+div.row{
+   margin-right: 0px;
+}
+
+div.container-fluid{
+   padding-right: 0px;
+}
+.imagen3{
+  filter: drop-shadow(1px 5px 10px #4f4f4f);
+}
+.portada{
+width: 100%;
+height: 100%;
+margin-top: 0px;
+margin-bottom: 0px;
+position: center;
+z-index: 99px;
+background-size: 100%; 
+background-image: url(../img/15.jpg); 
+position: relative; 
+background-attachment: ;
+background-repeat: no-repeat;
+
+}
+
+.wrp{
+    width: 100%; height: 0px;
+    position: relative;
+}
+.contenido{
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -400px;
+    /*background: rgba(0,0,11,0.6);*/
+}
+.contenido .info{
+    width: 100%;
+    max-width: 850px;
+    text-align: center;
+   margin-top: -100px;
+
+}
+.contenido .info .nuestraBoda{
+ font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    color: #fff;
+    font-size: 25px;
+    text-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+    margin-top: 50px;
+    letter-spacing: 4px;
+}
+.contenido .info .nombres1{
+font-family: 'Montserrat', sans-serif; 
+  font-weight: 400;
+  font-style: normal;
+    color: #fff;
+    font-size: 15px;
+    
+    margin-bottom: 0px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    text-shadow: 2px 2px 4px #000000;
+}
+.contenido .info .nombres2{
+  font-family: 'Cantata One', serif;
+    color: #fff;
+    font-size: 40px;
+    text-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+    margin-bottom: 10px;
+    letter-spacing: 6px;
+}
+
+.contenido .info a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 19px;
+    padding: 10px 25px;
+    color: #fff;
+    background: #4897C3;
+    border-radius: 50px;
+    margin-bottom: 40px;
+    border: 2px solid transparent;
+    transition: all 300ms ease;
+    letter-spacing: 0.5px; /*Para separar un poco las letras*/
+}
+.contenido .info a:hover{
+    background: transparent; /*Fondo transparente*/
+    border: 2px solid #fff;
+}
+
+.titulo{
+   font-family: 'Montserrat', sans-serif; 
+  font-weight: 700;
+  font-style: normal;
+  color:#135aa8;
+  font-size: 25px;
+}
+.titulo2{
+  font-family: "Nothing You Could Do", cursive;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: -10px;
+  color:#fff;
+  background-color: #b66d3c; 
+text-shadow: 2px 2px 4px #000000;
+display:flex;
+justify-content: center; 
+align-items: left;
+z-index: 999;
+border-radius: 50px;
+letter-spacing: 2px;
+}
+.titulo3{
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: px;
+  color:#fff;
+  background-color: #0874BF; 
+height:50px; 
+
+display:flex;
+justify-content: center; 
+align-items: center;
+z-index: 999;
+border-radius: 50px;
+letter-spacing: 2px;
+}
+
+.titulo4{
+  font-family: "Nothing You Could Do", cursive;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: -10px;
+  color:#fff;
+  background-color: #b66d3c; 
+
+display:flex;
+justify-content: center; 
+align-items: left;
+z-index: 999;
+border-radius: 50px;
+letter-spacing: 2px;
+}
+.subtitulo{
+    
+  font-family: "Alumni Sans Pinstripe", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+  letter-spacing: 3px;
+}
+.subtitulo2{
+    font-family: "Alumni Sans Pinstripe", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 35px;
+  margin-top:-15px;
+}
+.subtitulo3{
+     font-family: "Lilita One", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 35px;
+  color: #84C1EC;
+  letter-spacing: 3px;
+
+}
+
+.texto{
+   font-family: 'Montserrat', sans-serif; 
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color:white;
+ text-shadow: 2px 2px 4px #000000;
+   letter-spacing: 1px;
+    line-height: 1.5;
+
+}
+.texto2{
+   font-family: "Inclusive Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+}
+.texto3{
+   font-family: "Inclusive Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  text-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+}
+.texto4{
+  font-family: "Inclusive Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
+  letter-spacing: 2px;
+  margin-top: -10px;
+}
+.destinos{
+  background-color: transparent;
+  border-radius: 30px;
+}
+.menuDigital{
+  margin-top: -80px;
+}
+
+
+.btn{
+  text-decoration:none;
+  color:black;
+  border-color: black;
+}
+
+
+.btn:hover{
+  text-decoration:none;
+  color: white;
+  border-color: #fff;
+  background-color: #1A6286;
+ 
+}
+.menu{
+  color: #000;
+  margin-top: 30px;
+}
+.table {
+  background: #EFECE6;
+  position: sticky;
+  margin-bottom: 9px;
+  top:0; 
+  font-family: 'Concert One', sans-serif;
+
+}
+.btnComoLlegar{
+  text-decoration: none;
+  color:#FFF;
+  background-color: #CC8B88; 
+  font-family: 'Cantata One', serif;
+  font-size: 11px;
+   height: 45px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 2px;
+border-radius: 50px;
+}
+
+.btnComoLlegar:hover{
+  text-decoration: none;
+  background-color: transparent; 
+  font-family: 'Cantata One', serif; 
+  font-size: 11px;
+  color:#CC8B88;
+  height: 45px;
+  letter-spacing: 2px;
+
+  border-top: 2px solid ;
+  border-bottom: 2px solid ;
+  border-right: 2px solid ;
+  border-left: 2px solid ;
+  border-color: #CC8B88;
+}
+
+.cuerpo{
+width: 100%;
+  background: transparent; 
+  color:#121D25;
+z-index: -1;
+margin-top: 0px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 17px;
+
+
+
+}
+
+.cuerpo2{
+
+  font-family: 'Quicksand', sans-serif;
+  font-size: 13px;
+
+
+
+}
+@media (max-width:320px){
+
+.cuerpo2{
+
+  font-family: 'Quicksand', sans-serif;
+  font-size: 10px;
+
+}
+.precio2{
+
+  font-family: 'Quicksand', sans-serif;
+  font-size: 12px;
+
+}
+.cuerpo3{
+
+  font-size: 17px;
+
+}
+
+.precio{
+  margin-left: -20px;
+}
+}
+#scroll {
+    position:fixed;
+    bottom:10px;
+    right:10px;
+    cursor:pointer;
+    width:50px;
+    height:50px;
+    background-color:#135aa8;
+    border-color: white;
+    text-indent:-9999px;
+    display:none;
+    -webkit-border-radius:60px;
+    -moz-border-radius:60px;
+    border-radius:60px
+}
+#scroll span {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-8px;
+    margin-top:-12px;
+    height:0;
+    width:0;
+    border:8px solid transparent;
+    border-bottom-color:#ffffff;
+}
+#scroll:hover {
+    background-color:#b66d3c;
+    opacity:1;filter:"alpha(opacity=100)";
+    -ms-filter:"alpha(opacity=100)";
+}
+.pie{
+  background: #1A6286;
+  border-top: solid 1px white;
+  margin-bottom: 0px;
+  font-size: 1.1rem;
+  color:white;
+  position:relative;
+  z-index: -1;
+  text-decoration:none;
+  font-family: 'Concert One', sans-serif;
+}
+
+.piepag {
+  font-size: 1.5rem;
+  text-align: center;
+  z-index: -1;
+  color:#121D25;
+ font-family: 'Concert One', sans-serif;
+
+}
+.center{display:table;width:100%;background-color: #fff;
+margin-top:-25px;
+margin-bottom:;}
+#social-test{display:table-cell;vertical-align:middle;text-align:center;font-size:30px}
+#social-test h2{color:#000;font-family:Futura,"Trebuchet MS",Arial,sans-serif;font-weight:100}
+#social-test .social{padding-left:0}
+#social-test a{color:#fff;list-style-type:none;display:inline-block;width:50px;height:50px;line-height:50px;padding:1%;border:1px solid #fff;cursor:pointer;margin-left:10px;margin-bottom:20px;transition:ease .3s}
+#social-test a:hover{color:#F7921D;border:1px solid #F7921D}
+.social:hover>a{opacity:.5}
+.social:hover>a:hover{opacity:1}
+
+
+.watermark {
+  opacity: 0.25;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+/*  top: 60%; */
+* left: 30%; */
+  margin: 0 auto;
+  height: 100vh;
+  font-size: 500%;
+  color: #00407d;
+}
+
+@media only screen and (max-width: 375px) and (min-width: 320px)  {
+.contenido{
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+    /*background: rgba(0,0,11,0.6);*/
+}
+
+}
+
+@media (max-width:390px){
+  .contenido{
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -300px;
+    /*background: rgba(0,0,11,0.6);*/
+}
+  }
+@media (max-width:344px){
+  .subtitulo3{
+     font-family: "Lilita One", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 25px;
+  color: #CC8B88;
+  letter-spacing: 3px;
+
+}
+.titulo3{
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: px;
+  color:#fff;
+  background-color: #0874BF; 
+height:50px; 
+font-size:25px;
+display:flex;
+justify-content: center; 
+align-items: center;
+z-index: 999;
+border-radius: 50px;
+letter-spacing: 2px;
+}
+.contenido{
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -300px;
+    /*background: rgba(0,0,11,0.6);*/
+}
+.contenido .info .nuestraBoda{
+ font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    color: #fff;
+    font-size: 20px;
+    text-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+    margin-top: 50px;
+    letter-spacing: 4px;
+}
+.contenido .info .nombres1{
+ font-family: 'Montserrat', sans-serif; 
+  font-weight: 700;
+  font-style: normal;
+    color: #fff;
+    font-size: 10px;
+   text-shadow: 2px 2px 4px #000000;
+    margin-bottom: 0px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+}
+
+@media (min-width: 1200px) { /*laptop*/
+  .imagen{
+    width: 50%;
+    height: 50%;
+   display:block;
+margin:auto;
+
+  }
+  .contenido{
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -580px;
+    /*background: rgba(0,0,11,0.6);*/
+}
+}
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create four equal columns that floats next to eachother */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 100%;
+  max-width: 1200px;
+  
+
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Hide the slides by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Caption text */
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.social-container{
+  width:auto;
+  margin:0vh auto;
+  text-align:center
+}
+.social-icons{
+   margin-top: -100px;
+  padding:0;
+  list-style:none;margin:1em
+}
+.social-icons li{
+  display:inline-block;
+  margin:.30em;
+  position:relative;font-size:2.5em
+}
+.social-icons i{color:#fff;
+  position:absolute;top:24px;
+  left:26px;
+  transition:all 265ms ease-out}
+.social-icons a{
+  display:inline-block
+}
+.social-icons a:before{
+  transform:scale(1);
+  -ms-transform:scale(1);
+  -webkit-transform:scale(1);
+  content:" ";
+  width:90px;height:90px;
+  border-radius:100%;
+  display:block;background:linear-gradient(45deg,#d9b65e,#d9b65e);
+  transition:all 265ms ease-out
+}
+.social-icons a:hover:before{transform:scale(0);transition:all 265ms ease-in}
+.social-icons a:hover i{transform:scale(2.2);
+  -ms-transform:scale(2.2);
+  -webkit-transform:scale(2.2);
+  color:#9B7A07;background:-webkit-linear-gradient(45deg,#b66d3c,#b66d3c);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+  transition:all 265ms ease-in
+}
+.portada1{
+  background-size: 100% 100%; 
+  background-image: url(../img/cazo.jpg); 
+  position: relative; 
+  background-repeat: 
+  repeat; z-index: -999;
+}
+.portada2{
+  background-size: cover; 
+  background-image: url(../img/sierra.jpg); 
+  position: relative; 
+  background-repeat: no-repeat; 
+  z-index: -999;
+}
+.portada3{
+  background-size: cover; 
+  background-image: url(../img/cajeta.jpg); 
+  position: relative; 
+  background-repeat: no-repeat; 
+  z-index: -999;
+
+}
+
+@media all and (device-width: 820px) and (device-height: 1180px) and (orientation:portrait) { /*IPAD AIR*/
+.imagen{
+    width: 60%;
+    height: 60%;
+   display:block;
+margin:auto;
+
+  }
+ .portada1{
+  background-size: 70%; 
+  background-image: url(../img/cazo.jpg); 
+  position: relative; 
+  background-repeat: no-repeat; 
+  repeat; z-index: -999;
+  background-position-x: center;
+}
+.portada2{
+  background-size: 70%; 
+  background-image: url(../img/sierra.jpg); 
+  position: relative; 
+  background-repeat: no-repeat; 
+  z-index: -999;
+  background-position-x: center;
+
+}
+.portada3{
+  background-size: 70%; 
+  background-image: url(../img/cajeta.jpg); 
+  position: relative; 
+  background-repeat: no-repeat; 
+  z-index: -999;
+  background-position-x: center;
+}
+}
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {/*iPAD MINI*/
+
+.imagen{
+    width: 70%;
+    height: 70%;
+   display:block;
+margin:auto;
+
+  }
+   .portada1{
+  background-size: 70%; 
+  background-image: url(../img/cazo.jpg); 
+  position: relative; 
+  background-repeat: no-repeat; 
+  repeat; z-index: -999;
+  background-position-x: center;
+}
+.portada2{
+  background-size: 70%; 
+  background-image: url(../img/sierra.jpg); 
+  position: relative; 
+  background-repeat: no-repeat; 
+  z-index: -999;
+  background-position-x: center;
+
+}
+.portada3{
+  background-size: 70%; 
+  background-image: url(../img/cajeta.jpg); 
+  position: relative; 
+  background-repeat: no-repeat; 
+  z-index: -999;
+  background-position-x: center;
+}
+}  
+@media all and (device-width: 1024px) and (device-height: 1366px) and (orientation:portrait) {/*iPAD PRO*/
+ .imagen{
+    width: 50%;
+    height: 50%;
+   display:block;
+margin:auto;
+
+  }
+  .portada1{
+  background-size: 60%; 
+  background-image: url(../img/cazo.jpg); 
+  position: relative; 
+  background-repeat: no-repeat; 
+  repeat; z-index: -999;
+  background-position-x: center;
+}
+.portada2{
+  background-size: 70%; 
+  background-image: url(../img/sierra.jpg); 
+  position: relative; 
+  background-repeat: no-repeat; 
+  z-index: -999;
+  background-position-x: center;
+
+}
+.portada3{
+  background-size: 70%; 
+  background-image: url(../img/cajeta.jpg); 
+  position: relative; 
+  background-repeat: no-repeat; 
+  z-index: -999;
+  background-position-x: center;
+}
+}
+@media all and (device-width: 912px) and (device-height: 1368px) and (orientation:portrait) {/*SURFACE PRO7*/
+  .imagen{
+    width: 60%;
+    height: 60%;
+   display:block;
+margin:auto;
+
+  }
+   .portada1{
+  background-size: 60%; 
+  background-image: url(../img/cazo.jpg); 
+  position: relative; 
+  background-repeat: no-repeat; 
+  repeat; z-index: -999;
+  background-position-x: center;
+}
+.portada2{
+  background-size: 70%; 
+  background-image: url(../img/sierra.jpg); 
+  position: relative; 
+  background-repeat: no-repeat; 
+  z-index: -999;
+  background-position-x: center;
+
+}
+.portada3{
+  background-size: 70%; 
+  background-image: url(../img/cajeta.jpg); 
+  position: relative; 
+  background-repeat: no-repeat; 
+  z-index: -999;
+  background-position-x: center;
+}
+}
+@media all and (device-width: 853px) and (device-height: 1280px) and (orientation:portrait) {/*ASUS ZENBOOK*/
+.imagen{
+    width: 60%;
+    height: 60%;
+   display:block;
+margin:auto;
+
+  }
+   .portada1{
+  background-size: 70%; 
+  background-image: url(../img/cazo.jpg); 
+  position: relative; 
+  background-repeat: no-repeat; 
+  repeat; z-index: -999;
+  background-position-x: center;
+}
+.portada2{
+  background-size: 70%; 
+  background-image: url(../img/sierra.jpg); 
+  position: relative; 
+  background-repeat: no-repeat; 
+  z-index: -999;
+  background-position-x: center;
+
+}
+.portada3{
+  background-size: 70%; 
+  background-image: url(../img/cajeta.jpg); 
+  position: relative; 
+  background-repeat: no-repeat; 
+  z-index: -999;
+  background-position-x: center;
+}
+}
+
+@media (min-width: 1200px) { /*laptop*/
+  .imagen{
+    width: 50%;
+    height: 50%;
+   display:block;
+margin:auto;
+
+  }
+    .portada1{
+  background-size: 70%; 
+  background-image: url(../img/cazo.jpg); 
+  position: relative; 
+  background-repeat: no-repeat; 
+  repeat; z-index: -999;
+  background-position-x: center;
+}
+.portada2{
+  background-size: 70%; 
+  background-image: url(../img/sierra.jpg); 
+  position: relative; 
+  background-repeat: no-repeat; 
+  z-index: -999;
+  background-position-x: center;
+
+}
+.portada3{
+  background-size: 70%; 
+  background-image: url(../img/cajeta.jpg); 
+  position: relative; 
+  background-repeat: no-repeat; 
+  z-index: -999;
+  background-position-x: center;
+}
+}
